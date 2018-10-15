@@ -1,0 +1,154 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(pic2.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50% , -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.registerbox{
+	width: 320px;
+	height: 550px;
+	background: #000;
+	color: #fff;
+	top: 53%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50% , -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.contactbox{
+	width: 450px;
+	height: 540px;
+	background: #000;
+	color: #fff;
+	top: 53%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.contactlistbox{
+	width: 1000px;
+	background: #fff;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.logpic{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+.actionpic{
+	width: 20px;
+	height: 20px;
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.loginbox p , .contactbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.loginbox input , .registerbox input , .contactbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"] , input[type="password"] , 
+.registerbox input[type="text"] , input[type="password"] , input[type="number"] ,
+.contactbox input[type="text"] , input[type="password"] , input[type="number"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 14px;
+}
+.loginbox input[type="submit"] , 
+.registerbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.contactbox input[type="submit"] , input[type="reset"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 180px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.contactlistbox input[type="button"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 130px;
+	background: #6a5acd;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.contactlistbox input[type="button"]:hover{
+	cursor: pointer;
+	background: #00BFFF;
+	color: #000;
+}
+.loginbox input[type="submit"]:hover , .registerbox input[type="submit"]:hover , 
+.contactbox input[type="submit"]:hover , input[type="reset"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.loginbox b , .loginbox a , .registerbox b , .registerbox a{
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 20px;
+	color: darkgrey;
+}
+.loginbox a:hover , .registerbox a:hover{
+	color: #ffc107;
+}
+.contactlistbox tr:nth-child(even) {		/*table row background color */
+	background-color: #f2f2f2;
+}
+.contactlistbox td{
+	padding: 8px;
+}
+.contactlistbox th {
+    background-color: #6a5acd;
+    color: white;
+    padding: 8px;
+}
